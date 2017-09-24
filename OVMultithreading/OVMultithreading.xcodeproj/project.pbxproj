@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAD36B661F78115B00403993 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD36B651F78115B00403993 /* main.m */; };
+		CAD36B691F78115B00403993 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD36B681F78115B00403993 /* AppDelegate.m */; };
+		CAD36B6C1F78115B00403993 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD36B6B1F78115B00403993 /* ViewController.m */; };
+		CAD36B6F1F78115B00403993 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAD36B6D1F78115B00403993 /* Main.storyboard */; };
+		CAD36B711F78115B00403993 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAD36B701F78115B00403993 /* Assets.xcassets */; };
+		CAD36B741F78115B00403993 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAD36B721F78115B00403993 /* LaunchScreen.storyboard */; };
+		CAD36B7F1F78115B00403993 /* OVMultithreadingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD36B7E1F78115B00403993 /* OVMultithreadingTests.m */; };
+		CAD36B8A1F78115B00403993 /* OVMultithreadingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD36B891F78115B00403993 /* OVMultithreadingUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAD36B7B1F78115B00403993 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAD36B591F78115B00403993 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAD36B601F78115B00403993;
+			remoteInfo = OVMultithreading;
+		};
+		CAD36B861F78115B00403993 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAD36B591F78115B00403993 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAD36B601F78115B00403993;
+			remoteInfo = OVMultithreading;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAD36B611F78115B00403993 /* OVMultithreading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OVMultithreading.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD36B651F78115B00403993 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAD36B671F78115B00403993 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CAD36B681F78115B00403993 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CAD36B6A1F78115B00403993 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CAD36B6B1F78115B00403993 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CAD36B6E1F78115B00403993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAD36B701F78115B00403993 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAD36B731F78115B00403993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAD36B751F78115B00403993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAD36B7A1F78115B00403993 /* OVMultithreadingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OVMultithreadingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD36B7E1F78115B00403993 /* OVMultithreadingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OVMultithreadingTests.m; sourceTree = "<group>"; };
+		CAD36B801F78115B00403993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAD36B851F78115B00403993 /* OVMultithreadingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OVMultithreadingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD36B891F78115B00403993 /* OVMultithreadingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OVMultithreadingUITests.m; sourceTree = "<group>"; };
+		CAD36B8B1F78115B00403993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAD36B5E1F78115B00403993 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD36B771F78115B00403993 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD36B821F78115B00403993 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAD36B581F78115B00403993 = {
+			isa = PBXGroup;
+			children = (
+				CAD36B631F78115B00403993 /* OVMultithreading */,
+				CAD36B7D1F78115B00403993 /* OVMultithreadingTests */,
+				CAD36B881F78115B00403993 /* OVMultithreadingUITests */,
+				CAD36B621F78115B00403993 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAD36B621F78115B00403993 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAD36B611F78115B00403993 /* OVMultithreading.app */,
+				CAD36B7A1F78115B00403993 /* OVMultithreadingTests.xctest */,
+				CAD36B851F78115B00403993 /* OVMultithreadingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAD36B631F78115B00403993 /* OVMultithreading */ = {
+			isa = PBXGroup;
+			children = (
+				CAD36B671F78115B00403993 /* AppDelegate.h */,
+				CAD36B681F78115B00403993 /* AppDelegate.m */,
+				CAD36B6A1F78115B00403993 /* ViewController.h */,
+				CAD36B6B1F78115B00403993 /* ViewController.m */,
+				CAD36B6D1F78115B00403993 /* Main.storyboard */,
+				CAD36B701F78115B00403993 /* Assets.xcassets */,
+				CAD36B721F78115B00403993 /* LaunchScreen.storyboard */,
+				CAD36B751F78115B00403993 /* Info.plist */,
+				CAD36B641F78115B00403993 /* Supporting Files */,
+			);
+			path = OVMultithreading;
+			sourceTree = "<group>";
+		};
+		CAD36B641F78115B00403993 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAD36B651F78115B00403993 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAD36B7D1F78115B00403993 /* OVMultithreadingTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAD36B7E1F78115B00403993 /* OVMultithreadingTests.m */,
+				CAD36B801F78115B00403993 /* Info.plist */,
+			);
+			path = OVMultithreadingTests;
+			sourceTree = "<group>";
+		};
+		CAD36B881F78115B00403993 /* OVMultithreadingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAD36B891F78115B00403993 /* OVMultithreadingUITests.m */,
+				CAD36B8B1F78115B00403993 /* Info.plist */,
+			);
+			path = OVMultithreadingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAD36B601F78115B00403993 /* OVMultithreading */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD36B8E1F78115B00403993 /* Build configuration list for PBXNativeTarget "OVMultithreading" */;
+			buildPhases = (
+				CAD36B5D1F78115B00403993 /* Sources */,
+				CAD36B5E1F78115B00403993 /* Frameworks */,
+				CAD36B5F1F78115B00403993 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OVMultithreading;
+			productName = OVMultithreading;
+			productReference = CAD36B611F78115B00403993 /* OVMultithreading.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAD36B791F78115B00403993 /* OVMultithreadingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD36B911F78115B00403993 /* Build configuration list for PBXNativeTarget "OVMultithreadingTests" */;
+			buildPhases = (
+				CAD36B761F78115B00403993 /* Sources */,
+				CAD36B771F78115B00403993 /* Frameworks */,
+				CAD36B781F78115B00403993 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAD36B7C1F78115B00403993 /* PBXTargetDependency */,
+			);
+			name = OVMultithreadingTests;
+			productName = OVMultithreadingTests;
+			productReference = CAD36B7A1F78115B00403993 /* OVMultithreadingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAD36B841F78115B00403993 /* OVMultithreadingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD36B941F78115B00403993 /* Build configuration list for PBXNativeTarget "OVMultithreadingUITests" */;
+			buildPhases = (
+				CAD36B811F78115B00403993 /* Sources */,
+				CAD36B821F78115B00403993 /* Frameworks */,
+				CAD36B831F78115B00403993 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAD36B871F78115B00403993 /* PBXTargetDependency */,
+			);
+			name = OVMultithreadingUITests;
+			productName = OVMultithreadingUITests;
+			productReference = CAD36B851F78115B00403993 /* OVMultithreadingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAD36B591F78115B00403993 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = pengfei;
+				TargetAttributes = {
+					CAD36B601F78115B00403993 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4597N335LV;
+						ProvisioningStyle = Automatic;
+					};
+					CAD36B791F78115B00403993 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CAD36B601F78115B00403993;
+					};
+					CAD36B841F78115B00403993 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CAD36B601F78115B00403993;
+					};
+				};
+			};
+			buildConfigurationList = CAD36B5C1F78115B00403993 /* Build configuration list for PBXProject "OVMultithreading" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAD36B581F78115B00403993;
+			productRefGroup = CAD36B621F78115B00403993 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAD36B601F78115B00403993 /* OVMultithreading */,
+				CAD36B791F78115B00403993 /* OVMultithreadingTests */,
+				CAD36B841F78115B00403993 /* OVMultithreadingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAD36B5F1F78115B00403993 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD36B741F78115B00403993 /* LaunchScreen.storyboard in Resources */,
+				CAD36B711F78115B00403993 /* Assets.xcassets in Resources */,
+				CAD36B6F1F78115B00403993 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD36B781F78115B00403993 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD36B831F78115B00403993 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAD36B5D1F78115B00403993 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD36B6C1F78115B00403993 /* ViewController.m in Sources */,
+				CAD36B691F78115B00403993 /* AppDelegate.m in Sources */,
+				CAD36B661F78115B00403993 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD36B761F78115B00403993 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD36B7F1F78115B00403993 /* OVMultithreadingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD36B811F78115B00403993 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD36B8A1F78115B00403993 /* OVMultithreadingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAD36B7C1F78115B00403993 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAD36B601F78115B00403993 /* OVMultithreading */;
+			targetProxy = CAD36B7B1F78115B00403993 /* PBXContainerItemProxy */;
+		};
+		CAD36B871F78115B00403993 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAD36B601F78115B00403993 /* OVMultithreading */;
+			targetProxy = CAD36B861F78115B00403993 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAD36B6D1F78115B00403993 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAD36B6E1F78115B00403993 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAD36B721F78115B00403993 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAD36B731F78115B00403993 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAD36B8C1F78115B00403993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAD36B8D1F78115B00403993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAD36B8F1F78115B00403993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4597N335LV;
+				INFOPLIST_FILE = OVMultithreading/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pengfei.OVMultithreading;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CAD36B901F78115B00403993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4597N335LV;
+				INFOPLIST_FILE = OVMultithreading/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pengfei.OVMultithreading;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CAD36B921F78115B00403993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OVMultithreadingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pengfei.OVMultithreadingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OVMultithreading.app/OVMultithreading";
+			};
+			name = Debug;
+		};
+		CAD36B931F78115B00403993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OVMultithreadingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pengfei.OVMultithreadingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OVMultithreading.app/OVMultithreading";
+			};
+			name = Release;
+		};
+		CAD36B951F78115B00403993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OVMultithreadingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pengfei.OVMultithreadingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OVMultithreading;
+			};
+			name = Debug;
+		};
+		CAD36B961F78115B00403993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OVMultithreadingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pengfei.OVMultithreadingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OVMultithreading;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAD36B5C1F78115B00403993 /* Build configuration list for PBXProject "OVMultithreading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD36B8C1F78115B00403993 /* Debug */,
+				CAD36B8D1F78115B00403993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAD36B8E1F78115B00403993 /* Build configuration list for PBXNativeTarget "OVMultithreading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD36B8F1F78115B00403993 /* Debug */,
+				CAD36B901F78115B00403993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAD36B911F78115B00403993 /* Build configuration list for PBXNativeTarget "OVMultithreadingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD36B921F78115B00403993 /* Debug */,
+				CAD36B931F78115B00403993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAD36B941F78115B00403993 /* Build configuration list for PBXNativeTarget "OVMultithreadingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD36B951F78115B00403993 /* Debug */,
+				CAD36B961F78115B00403993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAD36B591F78115B00403993 /* Project object */;
+}
